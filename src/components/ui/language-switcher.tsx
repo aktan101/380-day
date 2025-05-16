@@ -7,7 +7,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 import { motion } from "framer-motion"
 
 export function LanguageSwitcher() {
-    const { i18n, t } = useTranslation()
+    const { i18n } = useTranslation()
 
     const changeLanguage = (lng: string) => {
         i18n.changeLanguage(lng)

@@ -3,8 +3,8 @@
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import { useTranslation } from "react-i18next"
-import { Card, CardContent } from "../ui/card"
-import { Progress } from "../ui/progress"
+import { Card, CardContent } from "@/components/ui/card"
+import { Progress } from "@/components/ui/progress"
 
 interface CountdownTimerProps {
     targetDate: string

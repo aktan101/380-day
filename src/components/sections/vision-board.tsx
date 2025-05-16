@@ -1,9 +1,15 @@
 "use client"
 
 import { motion } from "framer-motion"
+import camry from "../../assets/camry.jpg"
+import audi from "../../assets/audi.jpg"
+import fitness from "../../assets/fitness.jpg"
+import placeholder from "../../assets/iphone.png"
+
 import { Car, Smartphone, Dumbbell, Youtube, Gift, Plane, Home, CarFront } from "lucide-react"
 import { useTranslation } from "react-i18next"
 
+// заменяем next/image на обычный <img>
 export function VisionBoard() {
     const { t } = useTranslation()
 
@@ -13,56 +19,56 @@ export function VisionBoard() {
             title: t("vision.items.camry.title"),
             description: t("vision.items.camry.description"),
             icon: <Car className="h-8 w-8 text-[#0abab5]" />,
-            image: "/images/camry.jpg",
+            image: camry,
         },
         {
             id: 2,
             title: t("vision.items.apple.title"),
             description: t("vision.items.apple.description"),
             icon: <Smartphone className="h-8 w-8 text-[#0abab5]" />,
-            image: "/placeholder.svg?height=200&width=300",
+            image: placeholder,
         },
         {
             id: 3,
             title: t("vision.items.physique.title"),
             description: t("vision.items.physique.description"),
             icon: <Dumbbell className="h-8 w-8 text-[#0abab5]" />,
-            image: "/images/fitness.jpg",
+            image: fitness,
         },
         {
             id: 4,
             title: t("vision.items.youtube.title"),
             description: t("vision.items.youtube.description"),
             icon: <Youtube className="h-8 w-8 text-[#0abab5]" />,
-            image: "/placeholder.svg?height=200&width=300",
+            image: placeholder,
         },
         {
             id: 5,
             title: t("vision.items.gifts.title"),
             description: t("vision.items.gifts.description"),
             icon: <Gift className="h-8 w-8 text-[#0abab5]" />,
-            image: "/placeholder.svg?height=200&width=300",
+            image: placeholder,
         },
         {
             id: 6,
             title: t("vision.items.hajj.title"),
             description: t("vision.items.hajj.description"),
             icon: <Plane className="h-8 w-8 text-[#0abab5]" />,
-            image: "/placeholder.svg?height=200&width=300",
+            image: placeholder,
         },
         {
             id: 7,
             title: t("vision.items.home.title"),
             description: t("vision.items.home.description"),
             icon: <Home className="h-8 w-8 text-[#0abab5]" />,
-            image: "/placeholder.svg?height=200&width=300",
+            image: placeholder,
         },
         {
             id: 8,
             title: t("vision.items.audi.title"),
             description: t("vision.items.audi.description"),
             icon: <CarFront className="h-8 w-8 text-[#0abab5]" />,
-            image: "/images/audi.jpg",
+            image: audi,
         },
     ]
 
@@ -98,9 +104,9 @@ export function VisionBoard() {
                 >
                     <div className="relative h-48 overflow-hidden">
                         <img
-                            src={visionItem.image || "/placeholder.svg"}
+                            src={visionItem.image}
                             alt={visionItem.title}
-                            className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                            className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
                         <div className="absolute bottom-4 left-4 flex items-center space-x-2">
