@@ -1,0 +1,152 @@
+{
+  "nav": {
+    "home": "Home",
+    "vision": "Vision",
+    "progress": "Progress",
+    "fitness": "Fitness",
+    "ideas": "Ideas"
+  },
+  "hero": {
+    "title": "380 Days to Glory",
+    "subtitle": "Discipline. Hustle. Family. Faith.",
+    "journey": "The journey to greatness has begun",
+    "daysLeft": "Days Left",
+    "daysCompleted": "Days Completed"
+  },
+  "vision": {
+    "title": "Vision Board",
+    "subtitle": "Visualize your goals. Track your progress. Manifest your dreams.",
+    "items": {
+      "camry": {
+        "title": "2018-2019 Camry 70",
+        "description": "Buy a Camry in great condition"
+      },
+      "apple": {
+        "title": "Apple Ecosystem",
+        "description": "iPhone 13 Pro, MacBook Pro M1, Apple Watch"
+      },
+      "physique": {
+        "title": "Aesthetic Physique",
+        "description": "Build a shredded, aesthetic body"
+      },
+      "youtube": {
+        "title": "YouTube Empire",
+        "description": "Grow 5-6 YouTube channels with a team"
+      },
+      "gifts": {
+        "title": "Family Gifts",
+        "description": "Earn money to buy gifts for family"
+      },
+      "hajj": {
+        "title": "Hajj & Vacation",
+        "description": "Fund Hajj for parents and a family vacation"
+      },
+      "home": {
+        "title": "Dream Home",
+        "description": "Buy land in Bishkek and build an American-style house"
+      },
+      "audi": {
+        "title": "Audi RS6",
+        "description": "By age 18-19: Buy a black Audi RS6"
+      }
+    }
+  },
+  "progress": {
+    "title": "380-Day Journey",
+    "subtitle": "Track your daily progress. Build consistency. Never miss a day.",
+    "overview": "Progress Overview",
+    "completed": "of",
+    "days": "days completed",
+    "filter": "Filter by month",
+    "allMonths": "All Months",
+    "reset": "Reset Progress",
+    "today": "Today",
+    "startDate": "Start Date",
+    "endDate": "End Date"
+  },
+  "fitness": {
+    "title": "Project Ideal Physique",
+    "subtitle": "Build your dream body. Track your progress. Achieve your fitness goals.",
+    "tabs": {
+      "routine": "Workout Routine",
+      "stats": "Stats Tracker",
+      "nutrition": "Nutrition"
+    },
+    "workout": {
+      "sets": "Sets",
+      "reps": "Reps",
+      "weight": "Weight",
+      "rest": "Rest Day",
+      "recovery": "Recovery day. Rest and recharge."
+    },
+    "stats": {
+      "title": "Fitness Statistics",
+      "subtitle": "Track your progress and set goals",
+      "currentWeight": "Current Weight (lbs)",
+      "targetWeight": "Target Weight (lbs)",
+      "dailyCalories": "Daily Calorie Target",
+      "weeklyWorkouts": "Weekly Workouts",
+      "weightProgress": "Weight Progress",
+      "current": "Current",
+      "target": "Target",
+      "saveStats": "Save Stats"
+    },
+    "nutrition": {
+      "title": "Nutrition Tracker",
+      "subtitle": "Coming soon - Track your daily nutrition and macros",
+      "comingSoon": "This feature is under development. Check back soon for updates!"
+    }
+  },
+  "ideas": {
+    "title": "My Ideas",
+    "subtitle": "Capture your thoughts. Document your journey. Reflect on your progress.",
+    "newEntry": "New Entry",
+    "editEntry": "Edit Entry",
+    "addDescription": "Add a new idea or reflection",
+    "editDescription": "Update your journal entry",
+    "titlePlaceholder": "Title",
+    "contentPlaceholder": "Write your thoughts...",
+    "category": "Category",
+    "color": "Color",
+    "cancel": "Cancel",
+    "update": "Update",
+    "addEntry": "Add Entry",
+    "searchPlaceholder": "Search entries...",
+    "filterCategory": "Filter by category",
+    "allCategories": "All Categories",
+    "noEntries": "No entries found. Start adding your ideas!",
+    "categories": {
+      "idea": "Idea",
+      "goal": "Goal",
+      "quote": "Quote",
+      "reflection": "Reflection",
+      "gratitude": "Gratitude"
+    },
+    "colors": {
+      "tiffanyBlue": "Tiffany Blue",
+      "red": "Red",
+      "yellow": "Yellow",
+      "purple": "Purple",
+      "green": "Green"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "language": {
+    "en": "English",
+    "ru": "Russian"
+  },
+  "time": {
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "countdown": {
+    "daysLeft": "Days Left",
+    "daysCompleted": "Days Completed",
+    "startDate": "Start Date",
+    "endDate": "End Date"
+  }
+}
